@@ -103,3 +103,37 @@ body {
     overflow: hidden;
 }
 /*-----------------------END CERTIFICATE SECTION--------------------------*/
+.social {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+.social a {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 50px;
+   height: 50px;
+   margin: 0;
+   padding: 0;
+   background-color: #ffff;
+   border: 1px solid #cbcbcb;
+   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+}
+.social a:hover{
+    background-color: red;
+    transition: all ease 0.4s;
+}
+.social i{
+    font-size: 20px;
+    
+}
+.social i:hover{
+    color: #ffffff;
+}
+/*--------------FORMS-------------------*/
+.form-floating label {
+    margin-left: 0.8rem;
+
+}
